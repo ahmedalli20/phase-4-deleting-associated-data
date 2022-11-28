@@ -5,4 +5,6 @@ class ReviewsController < ApplicationController
     render json: reviews, include: :dog_house
   end
 
+  
+
 end
